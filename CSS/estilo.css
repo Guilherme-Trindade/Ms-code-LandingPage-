@@ -1,0 +1,27 @@
+/*header*/
+
+.imagem-header {
+    height: 40px;
+}
+
+.texto-link-barra {
+    color: #50658e !important;
+    text-decoration: none;
+ }
+
+ .texto-link-barra:hover {
+     color: #2a81ea !important;
+ }
+
+ .link-botao {
+     border: 1px solid;
+     background-color: #2a81ea;
+     text-align: center;
+     width: 150;
+     color: white !important;
+     border-top-left-radius: 1.5rem!important;
+     border-bottom-left-radius: 1.5rem!important;
+     border-top-right-radius: 1.5rem!important;
+     border-bottom-right-radius: 1.5rem!important;
+     text-decoration: none !important;
+ }
