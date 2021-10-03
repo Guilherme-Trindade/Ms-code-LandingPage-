@@ -27,6 +27,10 @@
  }
 
  /*Primeira Section*/
+ .imagem-ps {
+     background-image: url(http://demo.themenio.com/kovid19/images/gfx/header-a.png);
+     background-size: cover;
+ }
 
  .texto-ps {
      font-size: 5.25rem;
@@ -56,13 +60,69 @@
     margin-right: 10px;
 }
  @media (max-width: 320px) {
+    .texto-ps {
+        font-size: 2.5rem;
+        color: #50658e;
+        font-family: 'Roboto Slab', serif;
+        position: relative;
+    }
+   
+   .tm-texto-ps {
+       font-size: 1.0rem;
+       font-family: 'Roboto Slab', serif;
+       position: absolute;
+       padding-top: 10px;
+   }
+   
+   .tm2-texto-ps{
+       font-size: 1.2rem;
+       color: #50658e;
+       font-family: 'Roboto Slab', serif;
+   }
 }
 
 @media (max-width: 375px) and (min-width: 321px){
+    .texto-ps {
+        font-size: 4.0rem;
+        color: #50658e;
+        font-family: 'Roboto Slab', serif;
+        position: relative;
+    }
+   
+   .tm-texto-ps {
+       font-size: 0.7rem;
+       font-family: 'Roboto Slab', serif;
+       position: absolute;
+       padding-top: 25px;
+   }
+   
+   .tm2-texto-ps{
+       font-size: 1.5rem;
+       color: #50658e;
+       font-family: 'Roboto Slab', serif;
+   }
 }
 
 @media (max-width: 576px) and (min-width:  376px) {
-
+    .texto-ps {
+        font-size: 4.25rem;
+        color: #50658e;
+        font-family: 'Roboto Slab', serif;
+        position: relative;
+    }
+   
+   .tm-texto-ps {
+       font-size: 1.0rem;
+       font-family: 'Roboto Slab', serif;
+       position: absolute;
+       padding-top: 25px;
+   }
+   
+   .tm2-texto-ps{
+       font-size: 2.0rem;
+       color: #50658e;
+       font-family: 'Roboto Slab', serif;
+   }
 }
 
 @media (max-width: 768px) and (min-width: 577px) {
@@ -73,7 +133,25 @@
 }
 
 @media (max-width: 1200px) and (min-width: 993px) {
-    
+    .texto-ps {
+        font-size: 4.25rem;
+        color: #50658e;
+        font-family: 'Roboto Slab', serif;
+        position: relative;
+    }
+   
+   .tm-texto-ps {
+       font-size: 1.0rem;
+       font-family: 'Roboto Slab', serif;
+       position: absolute;
+       padding-top: 25px;
+   }
+   
+   .tm2-texto-ps{
+       font-size: 2.0rem;
+       color: #50658e;
+       font-family: 'Roboto Slab', serif;
+   }
 }
 
 @media (min-width: 1201px) {
