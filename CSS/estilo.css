@@ -87,7 +87,14 @@
     list-style: none;
     text-decoration: none;
 }
-
+/*Quarta-Section*/
+.Quarta-section {
+    margin-top: 100px;
+}
+.fa-exclamation-triangle {
+    font-size: 40px;
+    color: #7fb3f2;
+}
 
 
 
@@ -158,6 +165,10 @@
 }
 
 @media (max-width: 768px) and (min-width: 577px) {
+    .fa-exclamation-triangle {
+        font-size: 30px;
+        color: #7fb3f2;
+    }
 }
 
 @media (max-width: 992px) and (min-width: 769px) {    
