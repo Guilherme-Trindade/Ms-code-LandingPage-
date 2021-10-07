@@ -27,10 +27,9 @@
  }
 
  /*Primeira Section*/
- .imagem-ps {
-     background-image: url(http://demo.themenio.com/kovid19/images/gfx/header-a.png);
-     background-size: cover;
-     display: block !important;
+ img {
+     max-width: 100%;
+     height: auto;
  }
 
  .texto-ps {
@@ -95,6 +94,39 @@
     font-size: 40px;
     color: #7fb3f2;
 }
+
+/* Sexta-Section*/
+.fa-arrow-circle-right{
+    color: #3dca93;
+}
+
+/*Oitava-section*/
+
+.bg-gradient {
+    background-image: linear-gradient( #0000FF, #8A2BE2);
+}
+.fundo-azul {
+    background-color: #1b47a1 !important;
+}
+
+/*Nona-Section*/
+.imagem-da-div {
+    border: solid 2px ;
+    position: relative;
+}
+.fa-times-circle {
+    color: red !important;
+    position: absolute;
+    font-size: 20px;
+}
+
+.fa-check-circle {
+    color: green;
+    position: absolute;
+    font-size: 20px;
+}
+
+
 
 
 
