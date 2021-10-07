@@ -125,10 +125,15 @@
     position: absolute;
     font-size: 20px;
 }
+ 
+.bg-rodape {
+    background-image: url(http://demo.themenio.com/kovid19/assets/images/shape-c.png);
+    background-color: #151c2e !important;;
+}
 
-
-
-
+.texto-decima-section {
+    font-size: 20px;
+}
 
 @media (max-width: 320px) {
     .texto-ps {
@@ -194,6 +199,13 @@
        color: #50658e;
        font-family: 'Roboto Slab', serif;
    }
+   .btn-link{
+       font-size: 20px !important;
+   }
+
+   .texto-decima-section {
+    font-size: 20px;
+}
 }
 
 @media (max-width: 768px) and (min-width: 577px) {

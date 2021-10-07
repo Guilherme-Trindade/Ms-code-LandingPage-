@@ -21,3 +21,63 @@ $(document).ready(function(){
       });
     });
   });
+
+  $('#botao-1').on('click', function(){
+    $('#texto-1').show();
+    $('#texto-2').hide();
+    $('#texto-3').hide();
+    $('#texto-4').hide();
+    $('#texto-5').hide();
+    $('#texto-6').hide();
+  });
+  
+  $('#botao-2').on('click', function(){
+    $('#texto-1').hide();
+    $('#texto-2').removeClass('d-none')
+    $('#texto-2').show();
+    $('#texto-2').show();
+    $('#texto-3').hide();
+    $('#texto-4').hide();
+    $('#texto-5').hide();
+    $('#texto-6').hide();
+  });
+  
+  $('#botao-3').on('click', function(){
+    $('#texto-1').hide();
+    $('#texto-2').hide();
+    $('#texto-3').removeClass('d-none')
+    $('#texto-3').show();
+    $('#texto-4').hide();
+    $('#texto-5').hide();
+    $('#texto-6').hide();
+  });
+  
+  $('#botao-4').on('click', function(){
+    $('#texto-1').hide();
+    $('#texto-2').hide();
+    $('#texto-3').hide();
+    $('#texto-4').removeClass('d-none')
+    $('#texto-4').show();
+    $('#texto-5').hide();
+    $('#texto-6').hide();
+  });
+  
+  $('#botao-5').on('click', function(){
+    $('#texto-1').hide();
+    $('#texto-2').hide();
+    $('#texto-3').hide();
+    $('#texto-4').hide();
+    $('#texto-5').removeClass('d-none')
+    $('#texto-5').show();
+    $('#texto-6').hide();
+  });
+  
+  $('#botao-6').on('click', function(){
+    $('#texto-1').hide();
+    $('#texto-2').hide();
+    $('#texto-3').hide();
+    $('#texto-4').hide();
+    $('#texto-5').hide();
+    $('#texto-6').removeClass('d-none')
+    $('#texto-6').show();
+    });
