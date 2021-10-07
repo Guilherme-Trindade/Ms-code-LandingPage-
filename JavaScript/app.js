@@ -22,6 +22,17 @@ $(document).ready(function(){
     });
   });
 
+  $('a').click(function (e){
+    e.preventDefault();
+    var id = $(this).attr('href'),
+        targetOffset = $(id).offset().top,
+          menuHeight = $('.navbar').innerHeight();
+  
+    $('html, body').animate({
+      scrollTop: targetOffset - menuHeight
+    }, 700);
+  });
+
   $('#botao-1').on('click', function(){
     $('#texto-1').show();
     $('#texto-2').hide();
